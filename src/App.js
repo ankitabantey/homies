@@ -7,6 +7,7 @@ import {
   Switch,
 } from "react-router-dom";
 import page1 from "./Pages/page1";
+import chat from "./Pages/page2";
 import history from './Pages/history';
 {/* import page2 from "./Pages/page2"; */}
 
@@ -19,7 +20,7 @@ function App() {
         <main>
           <Switch>
             <Route path="/" exact component={page1} />
-             {/* <Route path="/page2" exact component={page2}/> */}
+             <Route path="/page2" exact component={chat}/>
             <Redirect to="/" />
           </Switch>
         </main>
