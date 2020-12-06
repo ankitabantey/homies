@@ -24,9 +24,9 @@ function App() {
       <Router history={history}>
         <main>
           <Switch>
-            <Route path="/page1" exact component={page1} />
+            <Route path="/" exact component={page1} />
              <Route path="/page2" exact component={chat}/>
-             <Route path="/" exact render={redirect()}/>
+             <Route path="/rep" exact render={redirect()}/>
             <Redirect to="/" />
           </Switch>
         </main>
