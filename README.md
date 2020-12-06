@@ -6,4 +6,4 @@ By connecting and finding a homie through the messaging portion you are able to 
 
 # Tech Stack
 
-React, Ruby, Jekyll, Google Civics API, Google Maps API
+React, Ruby, Jekyll, HTML/CSS, Google Civics API, Google Maps API
